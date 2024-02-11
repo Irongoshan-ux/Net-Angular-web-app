@@ -1,0 +1,31 @@
+@import "src/scss/base/variables";
+
+.course-info-container {
+    width: 94%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 3%;
+    bottom: 3%;
+    background: rgba(0,0,0,.6);
+    border-radius: 12px;
+    text-align: start;
+    padding: 4px 5px;
+    color: #d4d8e7;
+}
+
+.course-info-header {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: .2px;
+    color: #fff;
+}
+
+.course-info-data {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

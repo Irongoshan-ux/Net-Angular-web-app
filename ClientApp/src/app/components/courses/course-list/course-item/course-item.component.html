@@ -1,0 +1,12 @@
+<div class="course-item">
+    <img class="course-item course-item-small" [src]="course?.thumbImage" />
+    <app-course-badge *ngIf="course?.completed" [completed]="course?.completed?.toString()"></app-course-badge>
+    
+    <div class="course-ur-icons"></div>
+    <app-course-info
+        [courseHeader]="course!.title"
+        [courseSessions]="course!.totalSessions"
+        [completedSessions]="course!.completedSessions!"
+        [rate]="course!.rating">
+    </app-course-info>
+</div>

@@ -1,0 +1,15 @@
+<div class="course-info-container course-info-text">
+    <div class="course-info-header">{{ courseHeader }}</div>
+    <div class="course-info-data">
+        <div *ngIf="!completedSessions">
+            <span class="item-text">{{ courseSessions }} sessions</span>
+        </div>
+        <div *ngIf="completedSessions">
+            <span class="item-text">{{ completedSessions }} of {{ courseSessions }}
+                done</span>
+        </div>
+        <div *ngIf="rate && rate >= 80" class="course-info-rate">
+            <span class="item-text">{{ rate }}%</span>
+        </div>
+    </div>
+</div>

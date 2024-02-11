@@ -1,0 +1,13 @@
+
+<div *ngIf="pageData">
+        <app-collection-title [collectionName]="pageData.title"
+                            [collectionIcon]="pageData.image"
+                            [color]="pageData.mainColor">
+    </app-collection-title>
+</div>
+    <div class="collection-container page">
+    <app-course-list *ngFor="let collection of pageData.collections"
+                        [collection]="collection"
+                        [showMore]="false">
+    </app-course-list>
+</div>

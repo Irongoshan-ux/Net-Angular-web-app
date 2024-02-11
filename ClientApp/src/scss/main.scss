@@ -1,0 +1,105 @@
+@import './base/_reset.scss';
+@import './base/_variables.scss';
+@import './vendor/_vendor';
+@import './base/_typography';
+@import './layout/layout';
+
+@import './modules/admin';
+@import './modules/eb-setup';
+@import './modules/eb-consultation';
+@import './modules/eb-whil';
+@import './modules/nic';
+@import './modules/therapist';
+@import './modules/my-account';
+@import '../app/components/common/controls/controls.common.scss';
+
+
+/*=== global styles ===*/
+/*mixins*/
+@mixin baseContainer($maxWidth, $minWidth) {
+    max-width: $maxWidth;
+    min-width: $minWidth;
+    background: $white;
+    border: $border;
+    border-radius: 9px;
+    box-shadow: 0 2px 9px #d2d9e0;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+
+body {
+    background-color: $light-gray;
+    overflow-y: scroll;
+}
+
+.max-height-200 {
+    max-height: 200px;
+}
+
+.profile-img {
+    border-radius: 50%;
+}
+.k-actions {
+    display: none;
+}
+
+.center-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.pdf-only {
+    display: none !important;
+}
+
+.eb-page {
+    //min-height: 100vh;
+    //padding: 0;
+    .eb-to-whil-logo {
+        background-image: url('/images/icons/whil/eb-to-whil.png');
+        width: 530px;
+        height: 150px;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .alert-eb {
+        margin-top: -30px;
+        //position: absolute;
+        //width: 100%;
+        //border-bottom: 1px solid #B4B7C4;
+        background: transparent;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        /* identical to box height, or 129% */
+        border: 0;
+        border-radius: 0;
+        border-bottom: 1px solid #e4e9f3;
+        color: #3C3E42;
+        //border: 1px solid #B4B7C4
+        a {
+            color: #1266E2;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        .oval {
+            background: #EF5848;
+            width: 8px;
+            height: 8px;
+            border-radius: 4px;
+            display: inline-block;
+        }
+    }
+}

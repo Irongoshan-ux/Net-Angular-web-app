@@ -1,0 +1,40 @@
+@import "src/scss/base/variables";
+
+.course-item {
+    position: relative;
+    width: $defaultSize;
+    height: $defaultSize;
+    border-radius: $border-radius;
+}
+
+.course-item:hover {
+    opacity: .85;
+}
+
+.course-item-s {
+    width: 206px;
+    height: 206px;
+}
+.course-item-m {
+    width: 294px;
+    height: 206px;
+}
+.course-item-l {
+    width: 944px;
+    height: 306px;
+}
+
+.course-ur-icons {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1200px) {
+    .course-item {
+        width: $phoneSize;
+        height: $phoneSize;
+    }
+}

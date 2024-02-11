@@ -1,0 +1,22 @@
+<div
+    *ngIf="shouldShowTip"
+    class="daily-greeting-page"
+    ngClass="{ invisible: shouldShowFadeAnimation }"
+    (click)="onClick()">
+    <div
+        class="daily-greeting-background"
+        ngClass="{ visible: shouldShowAnimation }"></div>
+    <div class="daily-greeting-container">
+        <div
+            role="img"
+            class="logo"
+            ngClass="{ visible: shouldShowAnimation }"></div>
+            <div class="tip-container">
+                <div dir="auto" class="tip-separator">~</div>
+                <div dir="auto" aria-label="practice tip" class="tip-text">
+                    {{ tip.tipText }}
+                </div>
+                <div dir="auto" class="tip-separator">~</div>
+            </div>
+    </div>
+</div>

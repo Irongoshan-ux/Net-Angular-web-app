@@ -1,0 +1,28 @@
+@import "src/scss/base/_variables.scss";
+
+.collection-container {
+    display: flex;
+    flex-direction: column;
+    font-size: $font-size;
+    font-family: Open Sans;
+}
+
+.page {
+    display: block;
+    width: 100%;
+    max-width: 940px;
+    margin: auto;
+}
+
+
+@media screen and (max-width: 760px) {
+    .page:not(.mod-narrow) {
+    padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .page {
+        max-width: 700px;
+    }
+}

@@ -1,0 +1,21 @@
+<div class="course-list-container" [ngStyle]="{'align-items': 'start'}">
+    <app-course-list-header [collectionTitle]="collection.titleTranslation?? collection.title"
+                            [collectionName]="collection.collectionName"
+                            [showMore]="showMore"
+                            [collectionCourses]="collection.courses">
+    </app-course-list-header>
+    <app-course-list-info *ngIf="collection.bio"
+                          [image]="collection.image"
+                          [bio]="collection.bio"></app-course-list-info>
+
+    <div class="course-items-container" *ngIf="!showMore">
+        <ng-template ngFor let-item [ngForOf]="collection.courses" let-i="index+1">
+            <a
+                [routerLink]="['/courses/course/', item.courseName]">
+                <app-course-item [course]="item">
+                </app-course-item>
+            </a>
+            <div *ngIf="i%4==0" class="break"></div>
+        </ng-template>
+    </div>
+</div>

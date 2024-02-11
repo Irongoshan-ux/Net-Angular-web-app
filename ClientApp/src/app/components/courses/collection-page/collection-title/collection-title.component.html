@@ -1,0 +1,10 @@
+<div class="page-title-container justify-content-between page-title-text" [ngStyle]="{'background-color': color, 'display': 'flex'}" aria-label="pageTitle" tabindex="0">
+    <div class="col-1 ms-3 clickable align-self-center" (click)="goBack()">
+        <span class="fa-arrow-left clickable"></span>
+    </div>
+    <div class="collection-title">
+        <img class="collection-img" src="{{ collectionIcon }}" alt="collectionIcon">
+        <h1 class="collection-name">{{ collectionName }}</h1>
+    </div>
+    <div class="col-1"></div>
+</div>

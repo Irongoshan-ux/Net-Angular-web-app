@@ -1,0 +1,399 @@
+{
+    "title": "Find a Teacher",
+    "mainColor": "#45CAE3",
+    "image": "https://localhost:8081/staticFiles/general/teacher-headshots/teachers.png",
+    "collectionName": "teachers",
+    "isLimited": false,
+    "collections": [
+        {
+            "mainColor": "#45CAE3",
+            "title": "Stacey  Blavatt, MEd",
+            "collectionName": "teachers",
+            "image": "https://localhost:8081/staticFiles/general/teacher-headshots/Stacey%20Blavatt@3x.png",
+            "bio": "Stacey is a Senior Professional Development Trainer at EDU. She is dedicated to building learning communities and her areas of focus include diverse learner-driven design, social emotional learning, online/blended learning, and professional learning.",
+            "courses": [
+                {
+                    "id": 393,
+                    "courseName": "supporting-executive-functions",
+                    "title": "Supporting Executive Functions",
+                    "thumbImage": "https://localhost:8081/staticFiles/general/courses/strengthening-executive-function-skills-thumb.jpg",
+                    "rating": 93,
+                    "totalSessions": 8,
+                    "completedSessions": 0,
+                    "hasGuide": false,
+                    "englishOnly": false,
+                    "subsOnly": false,
+                    "isNew": false,
+                    "color": "#6639E3"
+                },
+                {
+                    "id": 394,
+                    "courseName": "diving-into-team-dynamics-and-messaging-in-the-workplace",
+                    "title": "Diving Into Team Dynamics and Messaging in the Workplace",
+                    "thumbImage": "https://localhost:8081/staticFiles/general/courses/providing-and-receiving-feedback-thumb.jpg",
+                    "rating": 100,
+                    "totalSessions": 8,
+                    "completedSessions": 1,
+                    "hasGuide": false,
+                    "englishOnly": false,
+                    "subsOnly": false,
+                    "isNew": false,
+                    "color": "#6639E3"
+                },
+                {
+                    "id": 395,
+                    "courseName": "tools-for-navigating-your-workplace",
+                    "title": "Tools for Navigating Your Workplace",
+                    "thumbImage": "https://localhost:8081/staticFiles/general/courses/navigating-unwritten-rules-thumb.jpg",
+                    "rating": 100,
+                    "totalSessions": 8,
+                    "completedSessions": 0,
+                    "hasGuide": false,
+                    "englishOnly": false,
+                    "subsOnly": false,
+                    "isNew": false,
+                    "color": "#6639E3"
+                }
+            ]
+        },
+        {
+            "mainColor": "#45CAE3",
+            "title": "Louis   Chesney",
+            "collectionName": "teachers",
+            "image": "https://localhost:8081/staticFiles/general/teacher-headshots/Louis%20Chesney@3x.png",
+            "bio": "Neurodiversity Product Manager, expert in providing employer support to drive workplace inclusion and strengthen interpersonal skills, co-author of ECHO: A Vocal Language Program for Easing Anxiety in Conversation.",
+            "courses": [
+                {
+                    "id": 341,
+                    "courseName": "understanding-neurodiversity-2",
+                    "title": "Understanding Neurodiversity",
+                    "thumbImage": "https://localhost:8081/staticFiles/general/courses/understanding-neurodiversity-2-thumb.jpg",
+                    "rating": 99,
+                    "totalSessions": 8,
+                    "completedSessions": 3,
+                    "hasGuide": false,
+                    "englishOnly": false,
+                    "subsOnly": false,
+                    "isNew": false,
+                    "color": "#6639E3"
+                },
+                {
+                    "id": 390,
+                    "courseName": "communicating-in-the-workplace",
+                    "title": "Communicating in the Workplace",
+                    "thumbImage": "https://localhost:8081/staticFiles/general/courses/communicating-with-peers-thumb.jpg",
+                    "rating": 100,
+                    "totalSessions": 8,
+                    "completedSessions": 0,
+                    "hasGuide": false,
+                    "englishOnly": false,
+                    "subsOnly": false,
+                    "isNew": false,
+                    "color": "#6639E3"
+                }
+            ]
+        },
+        {
+            "mainColor": "#45CAE3",
+            "title": "Jim  Hogan",
+            "collectionName": "teachers",
+            "image": "https://localhost:8081/staticFiles/general/teacher-headshots/Jim%20Hogan@3x.png",
+            "bio": "Jim Hogan, a successful autistic professional and powerful advocate for change and acceptance, helps employers understand neurodistinct employees' needs and guides many autistic professionals who enter the workforce behind him.",
+            "courses": [
+                {
+                    "id": 349,
+                    "courseName": "expert-spotlight-jim-hogan",
+                    "title": "Expert Spotlight: Jim Hogan",
+                    "thumbImage": "https://localhost:8081/staticFiles/general/courses/holistic-neurodiversity-inclusion-w-jim-hogan-thumb.jpg",
+                    "rating": 100,
+                    "totalSessions": 13,
+                    "completedSessions": 0,
+                    "hasGuide": false,
+                    "englishOnly": false,
+                    "subsOnly": false,
+                    "isNew": false,
+                    "color": "#6639E3"
+                }
+            ]
+        },
+        {
+            "mainColor": "#45CAE3",
+            "title": "Tiffany   Jameson, Ph.D., MBA, PHR",
+            "collectionName": "teachers",
+            "image": "https://localhost:8081/staticFiles/general/teacher-headshots/Tiffany%20Payton%20Jameson@3x.png",
+            "bio": "Tiffany is an organizational psychologist with her Ph.D. from Grand Canyon University and Managing Partner for Grit & Flow, helping further the development of workplaces that support the cognitive diversity of each employee and candidate.",
+            "courses": [
+                {
+                    "id": 343,
+                    "courseName": "interviewing-effectively",
+                    "title": "Interviewing Effectively",
+                    "thumbImage": "https://localhost:8081/staticFiles/general/courses/interviewing-effectively-thumb.jpg",
+                    "rating": 100,
+                    "totalSessions": 8,
+                    "completedSessions": 2,
+                    "hasGuide": false,
+                    "englishOnly": false,
+                    "subsOnly": false,
+                    "isNew": false,
+                    "color": "#6639E3"
+                },
+                {
+                    "id": 345,
+                    "courseName": "communicating-effectively",
+                    "title": "Communicating Effectively: Managers",
+                    "thumbImage": "https://localhost:8081/staticFiles/general/courses/communication-manager-thumb.jpg",
+                    "rating": 100,
+                    "totalSessions": 8,
+                    "completedSessions": 0,
+                    "hasGuide": false,
+                    "englishOnly": false,
+                    "subsOnly": false,
+                    "isNew": false,
+                    "color": "#6639E3"
+                },
+                {
+                    "id": 346,
+                    "courseName": "promoting-self-advocacy",
+                    "title": "Promoting Self-Advocacy",
+                    "thumbImage": "https://localhost:8081/staticFiles/general/courses/promoting-self-advocacy-thumb.jpg",
+                    "rating": 100,
+                    "totalSessions": 8,
+                    "completedSessions": 0,
+                    "hasGuide": false,
+                    "englishOnly": false,
+                    "subsOnly": false,
+                    "isNew": false,
+                    "color": "#6639E3"
+                }
+            ]
+        },
+        {
+            "mainColor": "#45CAE3",
+            "title": "Jourdan  Saunders, MS, CCC-SLP",
+            "collectionName": "teachers",
+            "image": "https://localhost:8081/staticFiles/general/teacher-headshots/Jourdan%20Saunders@3x.png",
+            "bio": "Jourdan Saunders is an accomplished Speech Language Pathologist (SLP) and CEO of The Resource Key, where she utilizes her expertise to champion digital marketing inclusivity for individuals with disabilities and older adults.",
+            "courses": [
+                {
+                    "id": 388,
+                    "courseName": "communicating-effectively-all-employees",
+                    "title": "Communicating Effectively: All Employees",
+                    "thumbImage": "https://localhost:8081/staticFiles/general/courses/communicating-effectively-thumb.jpg",
+                    "rating": 95,
+                    "totalSessions": 8,
+                    "completedSessions": 0,
+                    "hasGuide": false,
+                    "englishOnly": false,
+                    "subsOnly": false,
+                    "isNew": false,
+                    "color": "#6639E3"
+                },
+                {
+                    "id": 389,
+                    "courseName": "overcome-hiring-barriers",
+                    "title": "Overcome Hiring Barriers",
+                    "thumbImage": "https://localhost:8081/staticFiles/general/courses/overcoming-hiring-barriers-thumb.jpg",
+                    "rating": 100,
+                    "totalSessions": 8,
+                    "completedSessions": 0,
+                    "hasGuide": false,
+                    "englishOnly": false,
+                    "subsOnly": false,
+                    "isNew": false,
+                    "color": "#6639E3"
+                },
+                {
+                    "id": 391,
+                    "courseName": "nd-collaborating-and-team-work",
+                    "title": "Collaborating and Team Work",
+                    "thumbImage": "https://localhost:8081/staticFiles/general/courses/collaborating-and-team-work-thumb.jpg",
+                    "rating": 100,
+                    "totalSessions": 8,
+                    "completedSessions": 0,
+                    "hasGuide": false,
+                    "englishOnly": false,
+                    "subsOnly": false,
+                    "isNew": false,
+                    "color": "#6639E3"
+                }
+            ]
+        },
+        {
+            "mainColor": "#45CAE3",
+            "title": "Ivan   Stanojkovic",
+            "collectionName": "teachers",
+            "image": "https://localhost:8081/staticFiles/general/teacher-headshots/Ivan%20Stanojkovic@3x.png",
+            "bio": "Ivan is a dedicated ally to the disabled community, expert in Universal Design Learning (UDL) in employment, and provides training to job developers across the country and supports organizations through increasing their inclusion and retention.",
+            "courses": [
+                {
+                    "id": 344,
+                    "courseName": "providing-natural-supports",
+                    "title": "Providing Natural Supports",
+                    "thumbImage": "https://localhost:8081/staticFiles/general/courses/providing-natural-supports-thumb.jpg",
+                    "rating": 100,
+                    "totalSessions": 8,
+                    "completedSessions": 0,
+                    "hasGuide": false,
+                    "englishOnly": false,
+                    "subsOnly": false,
+                    "isNew": false,
+                    "color": "#6639E3"
+                },
+                {
+                    "id": 347,
+                    "courseName": "creating-social-supports",
+                    "title": "Creating Social Supports",
+                    "thumbImage": "https://localhost:8081/staticFiles/general/courses/creating-social-supports-thumb.jpg",
+                    "rating": 100,
+                    "totalSessions": 8,
+                    "completedSessions": 0,
+                    "hasGuide": false,
+                    "englishOnly": false,
+                    "subsOnly": false,
+                    "isNew": false,
+                    "color": "#6639E3"
+                },
+                {
+                    "id": 348,
+                    "courseName": "resolving-conflict",
+                    "title": "Resolving Conflict",
+                    "thumbImage": "https://localhost:8081/staticFiles/general/courses/resolving-conflict-thumb.jpg",
+                    "rating": 100,
+                    "totalSessions": 8,
+                    "completedSessions": 0,
+                    "hasGuide": false,
+                    "englishOnly": false,
+                    "subsOnly": false,
+                    "isNew": false,
+                    "color": "#6639E3"
+                }
+            ]
+        },
+        {
+            "mainColor": "#45CAE3",
+            "title": "Wesley  Wade",
+            "collectionName": "teachers",
+            "image": "https://localhost:8081/staticFiles/general/teacher-headshots/Wesley%20Jackson%20Wade@3x.png",
+            "bio": "Wesley is a nationally certified counselor and owner of Forward Counseling & Consulting, partnering with therapists to provide counseling, executive coaching, and consulting services. He researches the associations between neurodivergence, career development, and racial identity.",
+            "courses": [
+                {
+                    "id": 385,
+                    "courseName": "nd-expanding-the-talent-pipeline",
+                    "title": "Expanding the Talent Pipeline",
+                    "thumbImage": "https://localhost:8081/staticFiles/general/courses/expanding-the-talent-pipeline-thumb.jpg",
+                    "rating": 100,
+                    "totalSessions": 8,
+                    "completedSessions": 0,
+                    "hasGuide": false,
+                    "englishOnly": false,
+                    "subsOnly": false,
+                    "isNew": false,
+                    "color": "#6639E3"
+                },
+                {
+                    "id": 386,
+                    "courseName": "nd-managing-performance-and-career-development",
+                    "title": "Managing Performance and Career Development",
+                    "thumbImage": "https://localhost:8081/staticFiles/general/courses/managing-performance-and-career-development-thumb.jpg",
+                    "rating": 100,
+                    "totalSessions": 8,
+                    "completedSessions": 0,
+                    "hasGuide": false,
+                    "englishOnly": false,
+                    "subsOnly": false,
+                    "isNew": false,
+                    "color": "#6639E3"
+                },
+                {
+                    "id": 387,
+                    "courseName": "nd-supporting-neurodiverse-peers",
+                    "title": "Supporting Neurodiverse Peers",
+                    "thumbImage": "https://localhost:8081/staticFiles/general/courses/supporting-neurodiverse-peers-thumb.jpg",
+                    "rating": 100,
+                    "totalSessions": 8,
+                    "completedSessions": 0,
+                    "hasGuide": false,
+                    "englishOnly": false,
+                    "subsOnly": false,
+                    "isNew": false,
+                    "color": "#6639E3"
+                }
+            ]
+        },
+        {
+            "mainColor": "#45CAE3",
+            "title": "Patricia  Wright, PhD, MPH",
+            "collectionName": "teachers",
+            "image": "https://localhost:8081/staticFiles/general/teacher-headshots/Patricia%20Wright3x.png",
+            "bio": "Former National Director of Services for Easter Seals, author, speaker and Board-Certified Behavior Analyst.",
+            "courses": [
+                {
+                    "id": 342,
+                    "courseName": "building-an-inclusive-workplace",
+                    "title": "Building an Inclusive Workplace",
+                    "thumbImage": "https://localhost:8081/staticFiles/general/courses/building-an-inclusive-workplace-thumb.jpg",
+                    "rating": 93,
+                    "totalSessions": 8,
+                    "completedSessions": 0,
+                    "hasGuide": false,
+                    "englishOnly": false,
+                    "subsOnly": false,
+                    "isNew": false,
+                    "color": "#6639E3"
+                },
+                {
+                    "id": 392,
+                    "courseName": "nd-valuing-differences",
+                    "title": "Valuing Differences",
+                    "thumbImage": "https://localhost:8081/staticFiles/general/courses/valuing-differences-thumb.jpg",
+                    "rating": 100,
+                    "totalSessions": 8,
+                    "completedSessions": 0,
+                    "hasGuide": false,
+                    "englishOnly": false,
+                    "subsOnly": false,
+                    "isNew": false,
+                    "color": "#6639E3"
+                },
+                {
+                    "id": 396,
+                    "courseName": "nd-workplace-belonging",
+                    "title": "Workplace Belonging",
+                    "thumbImage": "https://localhost:8081/staticFiles/general/courses/workplace-belonging-thumb.jpg",
+                    "rating": 100,
+                    "totalSessions": 8,
+                    "completedSessions": 0,
+                    "hasGuide": false,
+                    "englishOnly": false,
+                    "subsOnly": false,
+                    "isNew": false,
+                    "color": "#6639E3"
+                }
+            ]
+        },
+        {
+            "mainColor": "#45CAE3",
+            "title": "Compilations: Various Teachers",
+            "collectionName": "teachers",
+            "courses": [
+                {
+                    "id": 351,
+                    "courseName": "expert-spotlight-james-emmett",
+                    "title": "Expert Spotlight: James Emmett",
+                    "thumbImage": "https://localhost:8081/staticFiles/general/courses/neurodiversity-focused-hiring-and-retention-w-jim-hogan-thumb.jpg",
+                    "totalSessions": 2,
+                    "completedSessions": 0,
+                    "hasGuide": false,
+                    "englishOnly": false,
+                    "subsOnly": false,
+                    "isNew": false,
+                    "color": "#6639E3"
+                }
+            ]
+        }
+    ],
+    "mentalHealthSkills": [],
+    "quickTips": [],
+    "webinars": [],
+    "toolkits": []
+}
